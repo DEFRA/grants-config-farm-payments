@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 0.1.1
+
+### Patch Changes
+
+- 1ff5757: temp change to test grant config works
+
 ## 0.1.0
 
 ### Minor Changes
