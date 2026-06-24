@@ -2,6 +2,10 @@
 
 Core delivery platform Node.js Backend Template.
 
+- [Grant Configuration](#grant-configuration)
+  - [Create new](#create-new)
+  - [Update existing](#update-existing)
+  - [Non-configuration changes](#non-configuration-changes)
 - [Requirements](#requirements)
   - [Node.js](#nodejs)
 - [Local development](#local-development)
@@ -24,6 +28,76 @@ Core delivery platform Node.js Backend Template.
   - [SonarCloud](#sonarcloud)
 - [Licence](#licence)
   - [About the licence](#about-the-licence)
+
+## Grant Configuration
+
+### Create new
+
+Each directory within the `configurations` folder represents a separate grant.
+
+To create a new grant:
+
+1. Create a new directory under `configurations`, for example:
+
+   ```text
+   configurations/playground
+   ```
+
+2. Add at least one configuration file, for example:
+
+   ```text
+   configurations/playground/slide-config/main.json
+   ```
+
+3. Create a new version:
+
+   ```bash
+   npm run version
+   ```
+
+4. Stage and commit your changes using the standard commit format:
+
+   ```bash
+   git add .
+   git commit -m "feat(YOUR-TICKET): YOUR-MESSAGE"
+   ```
+
+5. Push your branch and then follow the standard GitHub pull request process.
+
+   ```bash
+   git push
+   ```
+
+### Update existing
+
+To update the configuration for an existing grant:
+
+1. Add or modify the required configuration files.
+
+2. Create a new version:
+
+   ```bash
+   npm run version
+   ```
+
+3. Stage and commit your changes:
+
+   ```bash
+   git add .
+   git commit -m "feat(YOUR-TICKET): YOUR-MESSAGE"
+   ```
+
+4. Push your branch and then follow the standard GitHub pull request process.
+
+   ```bash
+   git push
+   ```
+
+### Non-configuration changes
+
+Any change that does not modify the contents of the `configurations` directory is considered a **non-configuration change**.
+
+Do **not** create a changeset for these changes. Non-configuration changes do not trigger service publication when merged into `main`.
 
 ## Requirements
 
@@ -113,11 +187,9 @@ git config --global core.autocrlf false
 
 ## API endpoints
 
-| Endpoint             | Description                    |
-| :------------------- | :----------------------------- |
-| `GET: /health`       | Health                         |
-| `GET: /example    `  | Example API (remove as needed) |
-| `GET: /example/<id>` | Example API (remove as needed) |
+| Endpoint       | Description |
+| :------------- | :---------- |
+| `GET: /health` | Health      |
 
 ## Development helpers
 
