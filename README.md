@@ -6,7 +6,7 @@ Core delivery platform Node.js Backend Template.
   - [Create new](#create-new)
   - [Update existing](#update-existing)
   - [Non-configuration changes](#non-configuration-changes)
-  - [Hotfix Releases](#hotfix-releases)
+  - [Hotfix releases](#hotfix-releases)
 - [Requirements](#requirements)
   - [Node.js](#nodejs)
 - [Local development](#local-development)
@@ -100,7 +100,7 @@ Any change that does not modify the contents of the `configurations` directory i
 
 Do **not** create a changeset for these changes. Non-configuration changes do not trigger service publication when merged into `main`.
 
-### Hotfix Releases
+### Hotfix releases
 
 Hotfix releases should only be used as a last resort when a fix cannot be delivered through the normal release process because subsequent releases contain incompatible changes.
 
