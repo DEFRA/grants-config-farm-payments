@@ -132,11 +132,10 @@ If a hotfix is required, complete the following steps:
    **Note:** This workflow only runs on branches with the `hotfix-releases/` prefix.
 
    The workflow will:
+   - Publish the new patch version.
+   - Remove the generated changeset file.
 
-- Publish the new patch version.
-- Remove the generated changeset file.
-
-The workflow requires a `description` input, which is used as part of the workflow run name.
+   The workflow requires a `description` input, which is used as part of the workflow run name.
 
 ## Requirements
 
