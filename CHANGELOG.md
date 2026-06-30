@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.0.0
+
+### Major Changes
+
+- 07d3d00: Migrate to config broker
+
 ## 0.2.0
 
 ### Minor Changes
