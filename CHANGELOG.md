@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.1.0
+
+### Minor Changes
+
+- 732d675: Updated print page
+
 ## 1.0.0
 
 ### Major Changes
