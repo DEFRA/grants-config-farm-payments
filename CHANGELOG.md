@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.2.0
+
+### Minor Changes
+
+- fda3f41: Add allowlist
+
 ## 1.1.0
 
 ### Minor Changes
