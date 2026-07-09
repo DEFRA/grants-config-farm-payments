@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.3.0
+
+### Minor Changes
+
+- ba550e1: Add grant-level land actions and remove obsolete whitelist env vars
+
 ## 1.2.0
 
 ### Minor Changes
