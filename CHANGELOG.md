@@ -1,5 +1,12 @@
 # grants-config-farm-payments
 
+## 1.4.0
+
+### Minor Changes
+
+- b69e124: adding Environment variable
+- a43cc73: adding GAS and CW config
+
 ## 1.3.0
 
 ### Minor Changes
