@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.5.0
+
+### Minor Changes
+
+- 6d6c216: adding cw and gas config
+
 ## 1.4.0
 
 ### Minor Changes
