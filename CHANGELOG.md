@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.5.2
+
+### Patch Changes
+
+- a47beef: gas cw config
+
 ## 1.5.1
 
 ### Patch Changes
