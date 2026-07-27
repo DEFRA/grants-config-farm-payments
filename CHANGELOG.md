@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.5.3
+
+### Patch Changes
+
+- 365d3ff: adding patch
+
 ## 1.5.2
 
 ### Patch Changes
