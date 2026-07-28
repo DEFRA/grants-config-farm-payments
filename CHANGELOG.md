@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.6.0
+
+### Minor Changes
+
+- d3653a0: gas and cw latest config
+
 ## 1.5.3
 
 ### Patch Changes
