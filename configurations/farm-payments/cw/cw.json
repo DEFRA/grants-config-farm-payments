@@ -1,12 +1,14 @@
 {
   "code": "frps-private-beta",
   "requiredRoles": {
-    "allOf": ["ROLE_SFI_REFORM"],
+    "allOf": [
+      "ROLE_SFI_REFORM"
+    ],
     "anyOf": []
   },
   "definitions": {
     "agreementsService": {
-      "internalUrl": "https://fg-cw-frontend.%ENVIRONMENT%.cdp-int.defra.cloud/agreement/{agreementRef}"
+      "internalUrl": "https://fg-cw-frontend.ext-test.cdp-int.defra.cloud/agreement/{agreementRef}"
     }
   },
   "endpoints": [
@@ -1680,7 +1682,10 @@
                     }
                   ],
                   "requiredRoles": {
-                    "allOf": ["ROLE_SFI_REFORM", "ROLE_RPA_FINANCE"],
+                    "allOf": [
+                      "ROLE_SFI_REFORM",
+                      "ROLE_RPA_FINANCE"
+                    ],
                     "anyOf": []
                   },
                   "statusOptions": [

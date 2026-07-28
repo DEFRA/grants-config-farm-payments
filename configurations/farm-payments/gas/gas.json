@@ -3,7 +3,7 @@
   "metadata": {
     "description": "Future RPS private beta grant",
     "startDate": {
-      "$date": "2101-06-01T00:00:00Z"
+      "$date": "2100-04-01T00:00:00Z"
     }
   },
   "actions": [
@@ -34,7 +34,12 @@
             "type": "object",
             "title": "Rules and calculations validation results",
             "additionalProperties": false,
-            "required": ["id", "message", "valid", "date"],
+            "required": [
+              "id",
+              "message",
+              "valid",
+              "date"
+            ],
             "properties": {
               "id": {
                 "type": "integer",
@@ -58,7 +63,10 @@
                 "title": "Validation caveats",
                 "items": {
                   "type": "object",
-                  "required": ["code", "description"],
+                  "required": [
+                    "code",
+                    "description"
+                  ],
                   "additionalProperties": false,
                   "properties": {
                     "code": {
@@ -92,7 +100,10 @@
             "type": "object",
             "title": "Application data",
             "additionalProperties": false,
-            "required": ["parcel", "agreement"],
+            "required": [
+              "parcel",
+              "agreement"
+            ],
             "properties": {
               "parcel": {
                 "type": "array",
@@ -116,7 +127,10 @@
             "type": "object",
             "title": "Payment data",
             "additionalProperties": false,
-            "required": ["parcel", "agreement"],
+            "required": [
+              "parcel",
+              "agreement"
+            ],
             "properties": {
               "parcel": {
                 "type": "array",
@@ -146,7 +160,11 @@
           "ApplicationParcel": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["sheetId", "parcelId", "actions"],
+            "required": [
+              "sheetId",
+              "parcelId",
+              "actions"
+            ],
             "properties": {
               "sheetId": {
                 "type": "string",
@@ -166,7 +184,15 @@
                   "unit": {
                     "type": "string",
                     "title": "Unit of measurement",
-                    "enum": ["kg", "m", "100m", "count", "ha", "m2", "sqm"]
+                    "enum": [
+                      "kg",
+                      "m",
+                      "100m",
+                      "count",
+                      "ha",
+                      "m2",
+                      "sqm"
+                    ]
                   },
                   "quantity": {
                     "type": "number",
@@ -187,7 +213,11 @@
           "ApplicationAction": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["code", "durationYears", "version"],
+            "required": [
+              "code",
+              "durationYears",
+              "version"
+            ],
             "properties": {
               "code": {
                 "type": "string",
@@ -210,7 +240,15 @@
                   "unit": {
                     "type": "string",
                     "title": "Unit of measurement",
-                    "enum": ["kg", "m", "100m", "count", "ha", "m2", "sqm"]
+                    "enum": [
+                      "kg",
+                      "m",
+                      "100m",
+                      "count",
+                      "ha",
+                      "m2",
+                      "sqm"
+                    ]
                   },
                   "quantity": {
                     "type": "number",
@@ -223,7 +261,11 @@
           "ApplicationAgreement": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["code", "durationYears", "version"],
+            "required": [
+              "code",
+              "durationYears",
+              "version"
+            ],
             "properties": {
               "code": {
                 "type": "string",
@@ -243,7 +285,11 @@
           "PaymentParcel": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["sheetId", "parcelId", "actions"],
+            "required": [
+              "sheetId",
+              "parcelId",
+              "actions"
+            ],
             "properties": {
               "sheetId": {
                 "type": "string",
@@ -263,7 +309,15 @@
                   "unit": {
                     "type": "string",
                     "title": "Unit of measurement",
-                    "enum": ["kg", "m", "100m", "count", "ha", "m2", "sqm"]
+                    "enum": [
+                      "kg",
+                      "m",
+                      "100m",
+                      "count",
+                      "ha",
+                      "m2",
+                      "sqm"
+                    ]
                   },
                   "quantity": {
                     "type": "number",
@@ -284,7 +338,9 @@
           "PaymentAction": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["code"],
+            "required": [
+              "code"
+            ],
             "properties": {
               "code": {
                 "type": "string",
@@ -317,7 +373,15 @@
                   "unit": {
                     "type": "string",
                     "title": "Unit of measurement",
-                    "enum": ["kg", "m", "100m", "count", "ha", "m2", "sqm"]
+                    "enum": [
+                      "kg",
+                      "m",
+                      "100m",
+                      "count",
+                      "ha",
+                      "m2",
+                      "sqm"
+                    ]
                   },
                   "quantity": {
                     "type": "number",
@@ -333,7 +397,15 @@
                   "unit": {
                     "type": "string",
                     "title": "Unit of measurement",
-                    "enum": ["kg", "m", "100m", "count", "ha", "m2", "sqm"]
+                    "enum": [
+                      "kg",
+                      "m",
+                      "100m",
+                      "count",
+                      "ha",
+                      "m2",
+                      "sqm"
+                    ]
                   },
                   "quantity": {
                     "type": "number",
@@ -350,7 +422,9 @@
           "PaymentAgreement": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["code"],
+            "required": [
+              "code"
+            ],
             "properties": {
               "code": {
                 "type": "string",
@@ -407,23 +481,38 @@
                         "description": "Address line 1"
                       },
                       "line2": {
-                        "type": ["string", "null"],
+                        "type": [
+                          "string",
+                          "null"
+                        ],
                         "description": "Address line 2"
                       },
                       "line3": {
-                        "type": ["string", "null"],
+                        "type": [
+                          "string",
+                          "null"
+                        ],
                         "description": "Address line 3"
                       },
                       "line4": {
-                        "type": ["string", "null"],
+                        "type": [
+                          "string",
+                          "null"
+                        ],
                         "description": "Address line 4"
                       },
                       "line5": {
-                        "type": ["string", "null"],
+                        "type": [
+                          "string",
+                          "null"
+                        ],
                         "description": "Address line 5"
                       },
                       "street": {
-                        "type": ["string", "null"],
+                        "type": [
+                          "string",
+                          "null"
+                        ],
                         "description": "Street name"
                       },
                       "city": {
@@ -436,7 +525,11 @@
                         "description": "UK postal code"
                       }
                     },
-                    "required": ["line1", "city", "postalCode"]
+                    "required": [
+                      "line1",
+                      "city",
+                      "postalCode"
+                    ]
                   },
                   "landlinePhoneNumber": {
                     "type": "string",
@@ -447,7 +540,10 @@
                     "description": "Mobile phone number"
                   }
                 },
-                "required": ["name", "address"]
+                "required": [
+                  "name",
+                  "address"
+                ]
               },
               "customer": {
                 "type": "object",
@@ -466,7 +562,10 @@
                         "description": "First name"
                       },
                       "middle": {
-                        "type": ["string", "null"],
+                        "type": [
+                          "string",
+                          "null"
+                        ],
                         "description": "Middle name"
                       },
                       "last": {
@@ -474,13 +573,22 @@
                         "description": "Last name"
                       }
                     },
-                    "required": ["title", "first", "last"]
+                    "required": [
+                      "title",
+                      "first",
+                      "last"
+                    ]
                   }
                 },
-                "required": ["name"]
+                "required": [
+                  "name"
+                ]
               }
             },
-            "required": ["business", "customer"]
+            "required": [
+              "business",
+              "customer"
+            ]
           }
         }
       },
@@ -516,7 +624,9 @@
               "validFrom": [
                 {
                   "code": "IN_REVIEW",
-                  "processes": ["GENERATE_OFFER"]
+                  "processes": [
+                    "GENERATE_OFFER"
+                  ]
                 }
               ]
             },
@@ -556,11 +666,15 @@
               "validFrom": [
                 {
                   "code": "PRE_AWARD:REVIEW_APPLICATION:IN_REVIEW",
-                  "processes": ["REQUEST_APPLICATION_WITHDRAWAL"]
+                  "processes": [
+                    "REQUEST_APPLICATION_WITHDRAWAL"
+                  ]
                 },
                 {
                   "code": "PRE_AWARD:REVIEW_APPLICATION:AGREEMENT_GENERATING",
-                  "processes": ["REQUEST_APPLICATION_WITHDRAWAL"]
+                  "processes": [
+                    "REQUEST_APPLICATION_WITHDRAWAL"
+                  ]
                 }
               ]
             },
@@ -569,7 +683,9 @@
               "validFrom": [
                 {
                   "code": "PRE_AWARD:REVIEW_APPLICATION:WITHDRAWAL_REQUESTED",
-                  "processes": ["WITHDRAW_AGREEMENT"]
+                  "processes": [
+                    "WITHDRAW_AGREEMENT"
+                  ]
                 }
               ]
             }
@@ -585,7 +701,9 @@
               "validFrom": [
                 {
                   "code": "PRE_AWARD:REVIEW_APPLICATION:AGREEMENT_GENERATING",
-                  "processes": ["STORE_AGREEMENT_CASE"]
+                  "processes": [
+                    "STORE_AGREEMENT_CASE"
+                  ]
                 },
                 {
                   "code": "APPLICATION_REJECTED",
@@ -598,7 +716,9 @@
               "validFrom": [
                 {
                   "code": "PRE_AWARD:REVIEW_OFFER:AGREEMENT_DRAFTED",
-                  "processes": ["REQUEST_AGREEMENT_CANCELLATION"]
+                  "processes": [
+                    "REQUEST_AGREEMENT_CANCELLATION"
+                  ]
                 }
               ]
             },
@@ -607,7 +727,9 @@
               "validFrom": [
                 {
                   "code": "PRE_AWARD:REVIEW_OFFER:AMENDMENT_REQUESTED",
-                  "processes": ["CANCEL_AGREEMENT"]
+                  "processes": [
+                    "CANCEL_AGREEMENT"
+                  ]
                 }
               ]
             },
@@ -625,7 +747,9 @@
               "validFrom": [
                 {
                   "code": "PRE_AWARD:REVIEW_OFFER:AGREEMENT_DRAFTED",
-                  "processes": ["REQUEST_APPLICATION_WITHDRAWAL"]
+                  "processes": [
+                    "REQUEST_APPLICATION_WITHDRAWAL"
+                  ]
                 }
               ]
             },
@@ -634,7 +758,9 @@
               "validFrom": [
                 {
                   "code": "PRE_AWARD:REVIEW_OFFER:WITHDRAWAL_REQUESTED",
-                  "processes": ["WITHDRAW_AGREEMENT"]
+                  "processes": [
+                    "WITHDRAW_AGREEMENT"
+                  ]
                 }
               ]
             }
@@ -659,7 +785,9 @@
               "validFrom": [
                 {
                   "code": "PRE_AWARD:CUSTOMER_AGREEMENT_REVIEW:AGREEMENT_OFFERED",
-                  "processes": ["REQUEST_AGREEMENT_CANCELLATION"]
+                  "processes": [
+                    "REQUEST_AGREEMENT_CANCELLATION"
+                  ]
                 }
               ]
             },
@@ -668,7 +796,9 @@
               "validFrom": [
                 {
                   "code": "PRE_AWARD:CUSTOMER_AGREEMENT_REVIEW:AMENDMENT_REQUESTED",
-                  "processes": ["CANCEL_AGREEMENT"]
+                  "processes": [
+                    "CANCEL_AGREEMENT"
+                  ]
                 }
               ]
             },
@@ -677,7 +807,9 @@
               "validFrom": [
                 {
                   "code": "PRE_AWARD:CUSTOMER_AGREEMENT_REVIEW:AGREEMENT_OFFERED",
-                  "processes": ["REQUEST_APPLICATION_WITHDRAWAL"]
+                  "processes": [
+                    "REQUEST_APPLICATION_WITHDRAWAL"
+                  ]
                 }
               ]
             },
@@ -686,7 +818,9 @@
               "validFrom": [
                 {
                   "code": "PRE_AWARD:CUSTOMER_AGREEMENT_REVIEW:WITHDRAWAL_REQUESTED",
-                  "processes": ["WITHDRAW_AGREEMENT"]
+                  "processes": [
+                    "WITHDRAW_AGREEMENT"
+                  ]
                 }
               ]
             }
@@ -707,7 +841,9 @@
               "validFrom": [
                 {
                   "code": "PRE_AWARD:CUSTOMER_AGREEMENT_REVIEW:AGREEMENT_OFFERED",
-                  "processes": ["ACCEPT_AGREEMENT"]
+                  "processes": [
+                    "ACCEPT_AGREEMENT"
+                  ]
                 }
               ]
             }
@@ -732,7 +868,9 @@
               "validFrom": [
                 {
                   "code": "POST_AGREEMENT_MONITORING:AGREEMENT_TERMINATION:PRE_TERMINATION_CHECKS",
-                  "processes": ["REQUEST_AGREEMENT_TERMINATION"]
+                  "processes": [
+                    "REQUEST_AGREEMENT_TERMINATION"
+                  ]
                 }
               ]
             },
@@ -741,7 +879,9 @@
               "validFrom": [
                 {
                   "code": "POST_AGREEMENT_MONITORING:AGREEMENT_TERMINATION:TERMINATION_REQUESTED",
-                  "processes": ["APPLY_AGREEMENT_TERMINATION"]
+                  "processes": [
+                    "APPLY_AGREEMENT_TERMINATION"
+                  ]
                 }
               ]
             }
