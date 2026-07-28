@@ -6,7 +6,7 @@
   },
   "definitions": {
     "agreementsService": {
-      "internalUrl": "https://fg-cw-frontend.%ENVIRONMENT%.cdp-int.defra.cloud/agreement/{agreementRef}"
+      "internalUrl": "https://fg-cw-frontend.ext-test.cdp-int.defra.cloud/agreement/{agreementRef}"
     }
   },
   "endpoints": [
@@ -591,6 +591,16 @@
                     ]
                   }
                 ]
+              },
+              {
+                "component": "paragraph",
+                "text": "Original configuration version $.originalConfigVersion",
+                "classes": "govuk-body"
+              },
+              {
+                "component": "paragraph",
+                "text": "Current configuration version $.currentConfigVersion",
+                "classes": "govuk-body"
               }
             ]
           },
