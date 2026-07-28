@@ -1,9 +1,7 @@
 {
   "code": "frps-private-beta",
   "requiredRoles": {
-    "allOf": [
-      "ROLE_SFI_REFORM"
-    ],
+    "allOf": ["ROLE_SFI_REFORM"],
     "anyOf": []
   },
   "definitions": {
@@ -1682,10 +1680,7 @@
                     }
                   ],
                   "requiredRoles": {
-                    "allOf": [
-                      "ROLE_SFI_REFORM",
-                      "ROLE_RPA_FINANCE"
-                    ],
+                    "allOf": ["ROLE_SFI_REFORM", "ROLE_RPA_FINANCE"],
                     "anyOf": []
                   },
                   "statusOptions": [
