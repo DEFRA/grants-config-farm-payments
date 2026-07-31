@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.6.1
+
+### Patch Changes
+
+- 91068f2: Replace hardcoded ext-test environment in cw internalUrl with %ENVIRONMENT% placeholder
+
 ## 1.6.0
 
 ### Minor Changes
