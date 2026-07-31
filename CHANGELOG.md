@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.6.2
+
+### Patch Changes
+
+- c069839: Fix invalid JSONata in the `frps-private-beta` workflow.
+
 ## 1.6.1
 
 ### Patch Changes
