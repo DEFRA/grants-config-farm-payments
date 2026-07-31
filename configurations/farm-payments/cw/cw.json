@@ -550,7 +550,7 @@
                           },
                           {
                             "component": "repeat",
-                            "itemsRef": "jsonata:$.payload.answers.payments.agreement[code $not in $.payload.answers.payments.parcel[*].actions[*].code]",
+                            "itemsRef": "jsonata:($parcelActionCodes := $.payload.answers.payments.parcel[*].actions[*].code; $.payload.answers.payments.agreement[$not(code in $parcelActionCodes)])",
                             "items": [
                               {
                                 "label": "@.code annual payment",
