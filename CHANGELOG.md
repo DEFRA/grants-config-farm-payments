@@ -1,5 +1,12 @@
 # grants-config-farm-payments
 
+## 1.6.3
+
+### Patch Changes
+
+- 287bcf2: fixing conditional issue
+- 287bcf2: fixing conditional 2
+
 ## 1.6.2
 
 ### Patch Changes
