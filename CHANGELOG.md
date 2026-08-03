@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.7.0
+
+### Minor Changes
+
+- 120042a: rename task.status to task.value
+
 ## 1.6.3
 
 ### Patch Changes
