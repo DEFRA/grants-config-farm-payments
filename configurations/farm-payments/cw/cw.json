@@ -1318,7 +1318,7 @@
                       ]
                     }
                   ],
-                  "statusOptions": [
+                  "valueOptions": [
                     {
                       "code": "ACCEPTED",
                       "name": "Accepted",
@@ -1414,7 +1414,7 @@
                       ]
                     }
                   ],
-                  "statusOptions": [
+                  "valueOptions": [
                     {
                       "code": "ACCEPTED",
                       "name": "Accepted",
@@ -1500,7 +1500,7 @@
                       ]
                     }
                   ],
-                  "statusOptions": [
+                  "valueOptions": [
                     {
                       "code": "ACCEPTED",
                       "name": "Accepted",
@@ -1624,7 +1624,7 @@
                       ]
                     }
                   ],
-                  "statusOptions": [
+                  "valueOptions": [
                     {
                       "code": "ACCEPTED",
                       "name": "Accepted",
@@ -1693,7 +1693,7 @@
                     "allOf": ["ROLE_SFI_REFORM", "ROLE_RPA_FINANCE"],
                     "anyOf": []
                   },
-                  "statusOptions": [
+                  "valueOptions": [
                     {
                       "code": "ACCEPTED",
                       "name": "Accepted",
@@ -1970,7 +1970,7 @@
                       ]
                     }
                   ],
-                  "statusOptions": [
+                  "valueOptions": [
                     {
                       "code": "CONFIRM",
                       "name": "Confirmed",
@@ -2004,7 +2004,7 @@
                       "classes": "govuk-!-margin-bottom-6"
                     }
                   ],
-                  "statusOptions": [
+                  "valueOptions": [
                     {
                       "code": "CONFIRM",
                       "name": "Confirmed",
@@ -2397,7 +2397,7 @@
                       ]
                     }
                   ],
-                  "statusOptions": [
+                  "valueOptions": [
                     {
                       "code": "NO_ACTION",
                       "name": "No action needed",
@@ -2625,7 +2625,7 @@
                     }
                   ],
                   "mandatory": true,
-                  "statusOptions": [
+                  "valueOptions": [
                     {
                       "code": "CONFIRM",
                       "name": "Confirmed",
@@ -2690,7 +2690,7 @@
                     }
                   ],
                   "mandatory": true,
-                  "statusOptions": [
+                  "valueOptions": [
                     {
                       "code": "CONFIRM",
                       "name": "Confirmed",
