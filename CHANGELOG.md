@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.8.0
+
+### Minor Changes
+
+- c1a883a: Update confirmation page
+
 ## 1.7.0
 
 ### Minor Changes
