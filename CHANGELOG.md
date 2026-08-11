@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.9.0
+
+### Minor Changes
+
+- b5036a1: Survey config
+
 ## 1.8.0
 
 ### Minor Changes
