@@ -4,6 +4,7 @@ metadata:
   printPage:
     showApplicantDetails: true
   id: 5c67688f-3c61-4839-a6e1-d48b598257f1
+  surveyLabel: Farm Payments
   enabledInProd: true
   enabledLandActions:
     - 'CMOR1'
