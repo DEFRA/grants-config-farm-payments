@@ -94,6 +94,16 @@ To update the configuration for an existing grant:
    git push
    ```
 
+[!NOTE]
+Mandatory approvals have been added to this repository, which interrupts the usual flow for releasing configuration changes.
+After approval and merge of your change to main, a second PR will be created, which you will need to give a second set of two approvals.
+
+Once this is merged, you will now have to *MANUALLY* trigger a workflow dispatch to publish the configuration changes.
+This is done by going to the Actions tab, selecting the "Publish" workflow, and clicking the "Run workflow" button. You will be
+prompted to enter two inputs: the run name is optional and can be what you like, the commit message needs to be set as exactly 'Create new config version'
+
+
+
 ### Non-configuration changes
 
 Any change that does not modify the contents of the `configurations` directory is considered a **non-configuration change**.
