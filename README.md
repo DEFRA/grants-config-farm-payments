@@ -1,5 +1,26 @@
 # grants-config-farm-payments
 
+> ⚠️ **Mandatory approvals** have been added to this repository, which interrupts the usual flow for releasing configuration changes.
+>
+> After your change is approved and merged to main, a Changeset PR will be created. This PR requires a second set of two approvals before it can be merged.
+>
+> Once the Changeset PR is merged to main, you must **MANUALLY** trigger the **Publish** workflow:
+>
+> 1. Go to **Actions**.
+> 2. Select the **Publish** workflow.
+> 3. Click **Run workflow**.
+>
+> You will be prompted to provide two inputs:
+>
+> - **Run name** — optional and can be whatever you like.
+> - **Commit message** — **MUST** be set to one of the following:
+>
+>   - `Create new config version #patch`
+>   - `Create new config version #minor`
+>   - `Create new config version #major`
+>
+> 🛑 **Important:** The commit message **MUST** exactly match the title of the Changeset PR you have just merged. Do not choose or guess the version bump yourself. Copy the exact title of the Changeset PR and use it as the commit message. Choosing the wrong version bump will cause the configuration versions to become out of sync.
+
 Core delivery platform Node.js Backend Template.
 
 - [Grant Configuration](#grant-configuration)
@@ -93,14 +114,6 @@ To update the configuration for an existing grant:
    ```bash
    git push
    ```
-
-[!NOTE]
-Mandatory approvals have been added to this repository, which interrupts the usual flow for releasing configuration changes.
-After approval and merge of your change to main, a second PR will be created, which you will need to give a second set of two approvals.
-
-Once this is merged, you will now have to **MANUALLY** trigger a workflow dispatch to publish the configuration changes.
-This is done by going to the Actions tab, selecting the "Publish" workflow, and clicking the "Run workflow" button. You will be
-prompted to enter two inputs: the run name is optional and can be what you like, the commit message needs to be set as exactly 'Create new config version'
 
 ### Non-configuration changes
 
