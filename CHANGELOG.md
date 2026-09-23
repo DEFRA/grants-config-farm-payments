@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.10.0
+
+### Minor Changes
+
+- 6ef365c: Rename surveyName field to shortName in config. Added description too.
+
 ## 1.9.0
 
 ### Minor Changes
