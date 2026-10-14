@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.10.1
+
+### Patch Changes
+
+- 45d2bbc: Remove CRNs from existing allowlist
+
 ## 1.10.0
 
 ### Minor Changes
