@@ -31,6 +31,9 @@
       "endpoint": {
         "code": "RECALCULATE_RULES_ENDPOINT",
         "endpointParams": {
+          "HEADERS": {
+            "Defra-Email": "$.user.email"
+          },
           "BODY": {
             "id": "$.payload.answers.rulesCalculations.id",
             "requesterUsername": "CASEWORKING_SYSTEM"
