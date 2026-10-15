@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.10.2
+
+### Patch Changes
+
+- 45d2bbc: send caseworker email when rerunning action
+
 ## 1.10.1
 
 ### Patch Changes
