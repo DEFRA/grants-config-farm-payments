@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.11.0
+
+### Minor Changes
+
+- 6681bdf: Move allowlist entries to external source
+
 ## 1.10.2
 
 ### Patch Changes
