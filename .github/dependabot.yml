@@ -26,10 +26,9 @@ updates:
           - 'husky'
           - 'vitest'
           - 'nodemon'
-          - 'npm-run-all'
-    ignore:
-      - dependency-name: 'eslint-*'
-      - dependency-name: 'eslint'
+      others:
+        patterns:
+          - '*'
     schedule:
       interval: weekly
       day: monday
