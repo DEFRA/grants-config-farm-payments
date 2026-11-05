@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.11.1
+
+### Patch Changes
+
+- 945f3e7: TGC-1845 - Remove non-prod allowlists for farm-payments
+
 ## 1.11.0
 
 ### Minor Changes
