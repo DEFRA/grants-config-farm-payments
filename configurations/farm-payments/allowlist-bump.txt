@@ -1,0 +1,3 @@
+Date       | Ticket   | Description
+---------- | -------- | --------------------------------------------
+05/11/2026 | TGC-1845 | Remove non-prod allowlists for farm-payments
