@@ -7,6 +7,10 @@ metadata:
   shortName: Farm Payments
   description: View your agreement and payment schedule
   enabledInProd: true
+  notificationBanner:
+    enabled: true
+    titleText: Important
+    text: This service will be unavailable from 4:30pm on Friday 13 November to 9:00am on Monday 16 November.
   enabledLandActions:
     - 'CMOR1'
     - 'UPL1'
