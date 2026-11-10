@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.11.2
+
+### Patch Changes
+
+- fce4c20:
+
 ## 1.11.1
 
 ### Patch Changes
