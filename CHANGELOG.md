@@ -1,5 +1,11 @@
 # grants-config-farm-payments
 
+## 1.11.3
+
+### Patch Changes
+
+- ded79db:
+
 ## 1.11.2
 
 ### Patch Changes
